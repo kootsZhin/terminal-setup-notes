@@ -2,6 +2,8 @@
 
 Setting up highlighting, prompt format and extensions.
 
+<br>
+
 ## Extensions
 
 [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):
@@ -15,6 +17,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/plugins/zsh-au
 ```zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.zsh/plugins/zsh-syntax-highlighting
 ```
+
+<br>
 
 ## Code Snippet
 
@@ -30,3 +34,10 @@ setopt prompt_subst
 
 PROMPT='[%{$fg[yellow]%}%D{%F} %D{%H:%M:%S}%{$reset_color%}] %n | %1~$(git branch --show-current 2&> /dev/null | xargs -I branch echo " (branch)") %% '
 ```
+
+<br>
+
+## Resources
+
+- For more extensions/resources: [zsh-users](https://github.com/zsh-users)
+- For zsh documentation: [ZSH Documentation](https://zsh.sourceforge.io/Doc/)
