@@ -1,8 +1,6 @@
 # .vimrc
 Setting up vim.
 
-<br>
-
 ## Code Snippet
 
 ```vim
