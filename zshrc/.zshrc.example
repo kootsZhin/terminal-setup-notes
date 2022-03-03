@@ -1,0 +1,10 @@
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.bash_profile
+autoload -U colors && colors
+setopt prompt_subst
+
+PROMPT='[%{$fg[yellow]%}%D{%F} %D{%H:%M:%S}%{$reset_color%}] %n | %1~$(git branch --show-current 2&> /dev/null | xargs -I branch echo " (branch)") %% '
