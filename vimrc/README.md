@@ -1,7 +1,7 @@
 # .vimrc
 Setting up vim.
 
-## Install molakai colorscheme
+## Install Molakai Colorscheme
 
 ```zsh
 curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
