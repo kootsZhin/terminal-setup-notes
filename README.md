@@ -7,7 +7,7 @@
 # iTerm2
 - Hotkey Window (Alt + Space)
 - Color: Dark (Default)
-- Font: (Source-Code-Pro 14 semibold)
+- Font: ([ibm-plex-mono](https://github.com/IBM/plex) 14 semibold)
 
 # Repo Structure
 
