@@ -4,6 +4,11 @@
 - Device: MacBook Pro (14-inch, 2021)
 - Chip: Apple M1 Pro
 
+# iTerm2
+- Hotkey Window (Alt + Space)
+- Color: Dark (Default)
+- Font: (Source-Code-Pro 14 semibold)
+
 # Repo Structure
 
 - [vimrc/README.md](vimrc/README.md)
